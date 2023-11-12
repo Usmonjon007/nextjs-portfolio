@@ -65,7 +65,7 @@ function About() {
                         &nbsp;aimed at enhancing frontend development skills.
         </p> */}
                     <p className="about-grid-info-text">
-                        Here are a few technologies I've worked with:
+                        Here are a few technologies I&apos;ve worked with:
                     </p>
                     <ul className="about-grid-info-list">
                         <div className="about-grid-info-list-item">HTML</div>

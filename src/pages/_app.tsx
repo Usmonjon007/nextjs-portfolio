@@ -9,7 +9,7 @@ const firaCode = Fira_Code({
     subsets: ["latin"],
 });
 
-export default function App({ Component: MyComponent, pageProps }: AppProps) {
+export default function App({ Component, pageProps }: AppProps) {
     return (
         <>
             <style jsx global>{`
@@ -18,7 +18,7 @@ export default function App({ Component: MyComponent, pageProps }: AppProps) {
                     --fira-code: ${firaCode.style.fontFamily};
                 }
             `}</style>
-            <MyComponent {...pageProps} />;
+            <Component {...pageProps} />
         </>
     );
 }
